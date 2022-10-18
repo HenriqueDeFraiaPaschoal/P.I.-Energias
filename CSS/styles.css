@@ -1,0 +1,12 @@
+:root {
+  --dark: #223240;
+  --light-green: #93D94E;
+  --green: #60BF81;
+  --medium-green: #3B8C66;
+  --dark-green: #347355;
+}
+
+.carrosel {
+  min-width: 100%;
+  max-height: 100vh;
+}

@@ -1,36 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="../CSS/styles.css">
-  <link rel="stylesheet" href="../CSS/responsiveness.css">
-  <link rel="stylesheet" href="../CSS/elements.css">
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <link rel="stylesheet" href="../CSS/responsiveness.css" />
+    <link rel="stylesheet" href="../CSS/elements.css" />
 
-  <script src="../JAVASCRIPT/script.js" defer></script>
+    <script src="../JAVASCRIPT/script.js" defer></script>
 
-  <title>Cleanergy</title>
-</head>
-<body>
-  <header id="header">
+    <title>Cleanergy</title>
+  </head>
+  <body>
+    <header id="header">
+      <a id="logo" href=""
+        ><img src="../IMAGES/logo_small.png" alt="" srcset="" />CLEANERGY</a
+      >
 
-      <a id="logo" href=""><img src="../IMAGES/logo_small.png" alt="" srcset="">CLEANERGY</a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="#energy_1">Energia 1</a></li>
+          <li><a href="#energy_2">Energia 2</a></li>
+          <li><a href="#energy_3">Energia 3</a></li>
+          <li><a href="#energy_4">Energia 4</a></li>
+          <li><a href="#about">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-        <span id="hamburger"></span>
-      </button>
-      <ul id="menu" role="menu">
-        <li><a href="/">Energia 1</a></li>
-        <li><a href="/">Energia 2</a></li>
-        <li><a href="/">Energia 3</a></li>
-        <li><a href="/">Energia 4</a></li>
-        <li><a href="/">Sobre</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-</body>
+    <main>
+      <section class="carrosel">
+        <p>O CARROSEL VIRÁ AQUI</p>
+      </section>
+
+      <section id="energy_1">
+        <p>Energia 1</p>
+      </section>
+
+      <section id="energy_2">
+        <p>Energia 2</p>
+      </section>
+
+      <section id="energy_3">
+        <p>Energia 3</p>
+      </section>
+
+      <section id="energy_4">
+        <p>Energia 4</p>
+      </section>
+
+      <section id="data">
+        <p>DADOS E ESTATISTICAS</p>
+      </section>
+
+      <section id="about">
+        <p>SOBRE</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>FOOTER SERÁ CRIADO APOS O ULTIMO VIEWPORT</p>
+    </footer>
+  </body>
 </html>
