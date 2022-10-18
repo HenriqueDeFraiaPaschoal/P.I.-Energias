@@ -7,13 +7,15 @@
 }
 
 .carrosel {
+  position: relative;
   max-width: 120rem;
   max-height: 100vh;
+  z-index: 0;
 }
 
 img {
   max-width: 100%;
-  max-height: 90vh;
+  max-height: 80vh;
   display: block;
 }
 
@@ -41,7 +43,7 @@ img {
 }
 
 .slide-nav button {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   opacity: 0;
 }
