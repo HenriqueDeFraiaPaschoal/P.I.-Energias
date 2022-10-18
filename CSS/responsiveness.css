@@ -39,6 +39,7 @@ a:hover {
   /* margin-top: 0.4rem; */
   position: fixed;
   top: 0.4rem;
+  z-index: 1;
 }
 
 #menu {
@@ -47,6 +48,7 @@ a:hover {
   justify-content: center;
   list-style: none;
   gap: 0.5rem;
+  z-index: 2;
 }
 
 #menu a {

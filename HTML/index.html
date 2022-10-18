@@ -22,7 +22,7 @@
   </head>
   <body>
     <header id="header">
-      <a id="logo" href=""
+      <a id="logo" href="#home"
         ><img src="../IMAGES/logo_small.png" alt="" srcset="" />CLEANERGY</a
       >
 
@@ -47,8 +47,23 @@
     </header>
 
     <main>
-      <section class="carrosel">
-        <p>O CARROSEL VIRÁ AQUI</p>
+      <section class="carrosel" id="home">
+        <div data-slide="slide" class="slide">
+          <div class="slide-items">
+            <img src="../IMAGES/img1.jpg" alt="Img 1">
+            <img src="../IMAGES/img2.jpg" alt="Img 2">
+            <img src="../IMAGES/img3.jpg" alt="Img 3">
+            <img src="../IMAGES/img4.jpg" alt="Img 4">
+          </div>
+          <nav class="slide-nav">
+            <div class="slide-thumb"></div>
+            <button class="slide-prev">Anterior</button>
+            <button class="slide-next">Próximo</button>
+          </nav>
+        </div>
+      
+        <script src="./slide-stories.js"></script>
+      </body>
       </section>
 
       <section id="energy_1">
