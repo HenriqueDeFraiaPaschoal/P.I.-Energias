@@ -12,11 +12,11 @@ new Chart(plots, {
         data: traffic, //Determines segment size
         //Color of each segment
         backgroundColor: [
-          "rgba(7, 150, 245)",
-          "rgba(252, 5, 79)",
-          "rgba(196, 190, 183)",
-          "rgba(21, 227, 235)",
-          "rgba(240, 5, 252)",
+          "#00aeef",
+          "#006673",
+          "#939598",
+          "#d4582a",
+          "#6d5691",
           "rgb(0,12,255)",
           "rgb(17, 252, 5)",
         ],
