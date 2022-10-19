@@ -85,6 +85,25 @@ O tema deste projeto em si tem como base a escolha de um ou mais tópicos dos [O
   [Linkedin](https://www.linkedin.com/in/igor-achete/)
 </details>
 
+<details>
+  <summary><strong>Victor Hugo _Dev_</strong></summary>
+
+  Cursando superior em Desenvolvimento de Software Multiplataforma (DSM) na instituição Fatec-Franca;
+
+  Buscando aprender mais sobre outras línguas, com conhecimento em Inglês e Espanhol;
+
+  Possuo experiência na área administrativa, gestão, infraestrutura e atendimento ao cliente;
+
+  Amplo conhecimento na área de hardware.
+  
+  Quer saber mais sobre mim? Aqui estão alguns links interessantes:
+
+  [GitHub](https://github.com/Victormoroo)
+  
+  [Linkedin](https://www.linkedin.com/in/victor-hugo-moro-941a2720a)
+
+</details>
+
 # Parcerias e Apoios :handshake:
 Pessoas que ajudaram no desenvolvimento e na distribuição do forms
 
