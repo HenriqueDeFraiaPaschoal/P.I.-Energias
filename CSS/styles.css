@@ -87,6 +87,10 @@ img {
   animation: thumb 5s forwards linear;
 }
 
+.id {
+  display: flex;
+}
+
 @keyframes thumb {
   to {
     transform: initial;
