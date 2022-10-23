@@ -7,6 +7,12 @@
   --white: #ffffff;
 }
 
+img {
+  max-width: 100%;
+  max-height: 80vh;
+  display: block;
+}
+
 .carrosel {
   position: relative;
   max-width: 120rem;
@@ -86,6 +92,17 @@
   display: flex;
 }
 
+#data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.char {
+  display: flex;
+}
+
 .form-container {
   width: 100%;
   height: auto;
@@ -98,12 +115,13 @@
 }
 
 fieldset {
+  width: 100%;
+  height: auto;
   border: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 64rem;
   margin: 0 auto;
 }
 
@@ -113,14 +131,17 @@ legend {
 }
 
 .form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 1.6rem;
+  padding: 0 .8rem;
 }
 
 .form input,
 .form textarea {
-  width: 64rem;
+  width: 100%;
+  max-width: 64rem;
   height: 3.2rem;
   border: 0.4rem solid rgb(173, 173, 173);
   outline: none;
@@ -140,7 +161,7 @@ legend {
 }
 
 .form textarea {
-  height: 28rem;
+  height: 16rem;
 }
 
 .form label {
@@ -155,6 +176,7 @@ legend {
   font-size: 1.6rem;
   font-weight: 600;
   color: #838383;
+  margin-left: .8rem;
 }
 
 .btn-form:hover {
