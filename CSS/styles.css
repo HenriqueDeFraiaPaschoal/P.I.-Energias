@@ -1,9 +1,10 @@
 :root {
   --dark: #223240;
-  --light-green: #93D94E;
-  --green: #60BF81;
-  --medium-green: #3B8C66;
+  --light-green: #93d94e;
+  --green: #60bf81;
+  --medium-green: #3b8c66;
   --dark-green: #347355;
+  --white: #ffffff;
 }
 
 .carrosel {
@@ -11,12 +12,6 @@
   max-width: 120rem;
   max-height: 100vh;
   z-index: 0;
-}
-
-img {
-  max-width: 100%;
-  max-height: 80vh;
-  display: block;
 }
 
 .slide {
@@ -78,7 +73,7 @@ img {
 }
 
 .slide-thumb > span.active::after {
-  content: '';
+  content: "";
   display: block;
   height: inherit;
   background: rgba(255, 255, 255, 0.9);
@@ -91,7 +86,7 @@ img {
   display: flex;
 }
 
-.form-container{
+.form-container {
   width: 100%;
   height: auto;
 }
@@ -99,14 +94,73 @@ img {
 .form-container h2 {
   font-size: 2rem;
   color: var(--dark-green);
+  padding-left: 4rem;
 }
 
 fieldset {
   border: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  width: 64rem;
+  margin: 0 auto;
+}
+
+legend {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+
+.form input,
+.form textarea {
+  width: 64rem;
+  height: 3.2rem;
+  border: 0.4rem solid rgb(173, 173, 173);
+  outline: none;
+  margin-top: 1.2rem;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #ccc;
+  font-size: 1.2rem;
+  padding-left: 0.8rem;
+}
+
+.form input:focus,
+.form textarea:focus {
+  box-shadow: 0 0 8px 3px #012566f2;
+}
+
+.form textarea {
+  height: 28rem;
+}
+
+.form label {
+  font-size: 1.6rem;
+}
+
+.btn-form {
+  align-self: flex-start;
+  border: 0.4rem solid #adadad;
+  outline: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #838383;
+}
+
+.btn-form:hover {
+  background-color: #012566;
+  border: 0.4rem solid #012566;
+  color: var(--white);
 }
 
 @keyframes thumb {

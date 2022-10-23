@@ -21,8 +21,11 @@ h4,
 h5,
 h6,
 a,
-p {
-  font-family: 'Oxygen', sans-serif;
+p,
+label,
+legend,
+::placeholder {
+  font-family: "Oxygen", sans-serif;
   font-size: 1.6rem;
 }
 
