@@ -30,8 +30,7 @@ legend,
 }
 
 section {
-  max-width: 120rem;
+  max-width: 130rem;
   height: 100vh;
   padding-top: 8.5rem;
-  border: 1px solid teal;
 }

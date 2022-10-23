@@ -24,6 +24,10 @@ new Chart(plots, {
     ],
   },
   options: {
-    legend: { display: true }, //This is true by default.
+    legend: { display: true,
+    labels: {
+      fontColor: '#FFF'
+    } },
+    responsive: true //This is true by default.
   },
 });
