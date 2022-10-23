@@ -1,12 +1,12 @@
 plots = document.getElementById("chart");
 
-const months = ["Hidrelérica", "Termelétrica", "Biomassa", "Eólica", "Outras"]; //Stays on the X-axis
+const energies = ["Hidrelérica", "Termelétrica", "Biomassa", "Eólica", "Outras"]; //Stays on the X-axis
 const traffic = [60.5, 16.2, 8.6, 8.3, 2.7]; //Stays on the Y-axis
 
 new Chart(plots, {
   type: "doughnut", //Declare the chart type
   data: {
-    labels: months, //Defines each segment
+    labels: energies, //Defines each segment
     datasets: [
       {
         data: traffic, //Determines segment size
