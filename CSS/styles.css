@@ -8,20 +8,20 @@
 }
 
 img {
-  max-width: 100%;
-  max-height: 80vh;
+  width: 100%;
+  max-height: 100vh;
   display: block;
 }
 
 .carrosel {
   position: relative;
-  max-width: 120rem;
+  max-width: 100%;
   max-height: 100vh;
   z-index: 0;
 }
 
 .slide {
-  max-width: 130rem;
+  max-width: 100%;
   max-height: 100vh;
   margin: 0 auto;
   display: grid;
