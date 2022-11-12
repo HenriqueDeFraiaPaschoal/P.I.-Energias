@@ -112,6 +112,7 @@ img {
 }
 
 .summary-content summary {
+  cursor: pointer;
   font-weight: 700;
 }
 
