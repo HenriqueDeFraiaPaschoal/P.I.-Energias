@@ -25,14 +25,22 @@ p,
 label,
 legend,
 details,
-summary
-::placeholder {
+summary ::placeholder {
   font-family: "Oxygen", sans-serif;
   font-size: 1.6rem;
 }
 
+h2 {
+  font-size: 2.8rem;
+}
+
 li {
   list-style: none;
+}
+
+p {
+  text-indent: 3.6rem;
+  margin-bottom: 0.8rem;
 }
 
 section {
@@ -40,10 +48,26 @@ section {
 }
 
 .spacing {
-  padding-top: 8.5rem;
+  padding-top: 8.6rem;
 }
 
 .lateral-spacing {
   padding-left: 8rem;
   padding-right: 8rem;
+}
+
+.pharagraph-down-spacing {
+  margin-bottom: 1.6rem;
+}
+
+.pharagraph-up-spacing {
+  margin-top: 1.6rem;
+}
+
+.advantage {
+  color: green;
+}
+
+.disvantage {
+  color: red;
 }
