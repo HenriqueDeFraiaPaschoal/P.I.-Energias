@@ -177,6 +177,7 @@ legend {
   border: 0.2rem solid rgb(173, 173, 173);
   outline: none;
   margin-top: 1.2rem;
+  border-radius: .4rem;
 }
 
 .form input::placeholder,
@@ -188,7 +189,8 @@ legend {
 
 .form input:focus,
 .form textarea:focus {
-  box-shadow: 0 0 8px 3px #012566f2;
+  box-shadow: 0 0 12px 1px #01246686;
+  border-color: #012566;
 }
 
 .form textarea {
