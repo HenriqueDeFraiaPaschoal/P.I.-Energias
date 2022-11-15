@@ -116,18 +116,13 @@ img {
   font-weight: 700;
 }
 
-#about p {
-  background-color: var(--green);
-  padding: 0.8rem;
-  text-align: justify;
-  border-radius: 0.8rem;
-  color: white;
-}
+/* #about p {
+
+} */
 
 #data p,
 #chart {
-  background-color: var(--dark-green);
-  color: white;
+  color: #FFF;
   padding: 0.8rem;
   text-align: justify;
   border-radius: 0.8rem;
