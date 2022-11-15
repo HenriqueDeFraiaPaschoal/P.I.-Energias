@@ -77,3 +77,15 @@ class SlideStories {
   }
   
   new SlideStories('slide');
+
+  const button = document.querySelector('.btn-form')
+  const inputName = document.querySelector('#name')
+  const inputEmail = document.querySelector('#email')
+  const inputText = document.querySelector('#message')
+
+  button.addEventListener('click', () => {
+    alert('Formulário enviado com sucesso. Entraremos em contato em beve!')
+    inputName.value = ""
+    inputEmail.value = ""
+    inputText.value = ""
+  })
