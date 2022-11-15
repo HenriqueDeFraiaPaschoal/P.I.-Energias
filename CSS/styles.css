@@ -161,7 +161,7 @@ legend {
  .chart {
   width: 50%;
   height: 50%;
-  background-color: #223240;
+  display: flex;
   border-radius: .8rem;
 }
 
