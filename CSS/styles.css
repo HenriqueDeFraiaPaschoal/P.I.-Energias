@@ -158,6 +158,13 @@ legend {
   margin-bottom: 1.6rem;
 }
 
+ .chart {
+  width: 50%;
+  height: 50%;
+  background-color: #223240;
+  border-radius: .8rem;
+}
+
 .form {
   max-width: 64rem;
   width: 100%;
