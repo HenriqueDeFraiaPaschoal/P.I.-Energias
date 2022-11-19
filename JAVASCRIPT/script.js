@@ -85,8 +85,21 @@ const inputText = document.querySelector("#message");
 
 button.addEventListener("click", (e) => {
   e.preventDefault();
+  if(inputName.value.length === 0 || inputEmail.value.length === 0 || inputText.value.length === 0) {
+    alert("Preencha todos os dados.")
+  } else {
   alert("Formulário enviado com sucesso. Entraremos em contato em beve!");
   inputName.value = "";
   inputEmail.value = "";
   inputText.value = "";
+  }
 });
+
+function muda() {
+  const tamanho = document.getElementById('message');
+  let contador = tamanho.value.length;
+  contador = tamanho.value.length;
+  document.getElementById('caracter').innerText = (500 - contador);
+}
+
+document.getElementById('message').addEventListener('keyup', muda);

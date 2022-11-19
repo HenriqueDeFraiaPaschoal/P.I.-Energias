@@ -258,3 +258,9 @@ legend {
     transform: initial;
   }
 }
+
+#caracter {
+  font-size: small;
+  color: darkgray;
+  margin-top: 5px;
+}
