@@ -1,10 +1,15 @@
 :root {
-  --dark: #223240;
-  --light-green: #93d94e;
-  --green: #164773;
-  --medium-green: #164773;
-  --dark-green: #0b2b40;
-  --white: #ffffff;
+  --Blue50: #EBF8FF;
+  --Blue100: #BEE3F8;
+  --Blue200: #90CDF4;
+  --Blue300: #63B3ED;
+  --Blue400: #4299E1;
+  --Blue500: #3182CE;
+  --Blue600: #2B6CB0;
+  --Blue700: #2C5282;
+  --Blue800: #2A4365;
+  --Blue900: #1A365D;
+  --gray: #f4f4f4;
 }
 
 img {
@@ -88,12 +93,12 @@ img {
   animation: thumb 5s forwards linear;
 }
 
-.bg-green {
-  background-color: var(--dark-green);
+.bg {
+  background-color: var(--gray);
 }
 
-.bg-lightGreen {
-  background-color: var(--green);
+.bg-light {
+  background-color: var(--Blue600);
 }
 
 #about {
