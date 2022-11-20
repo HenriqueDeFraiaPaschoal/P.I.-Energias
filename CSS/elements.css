@@ -34,6 +34,7 @@ summary ::placeholder {
 
 h2 {
   font-size: 2.8rem;
+  color:#011752;
 }
 
 li {
@@ -61,7 +62,7 @@ section {
 
 .pharagraph-down-spacing {
   margin-bottom: 1.6rem;
-}
+ }
 
 .pharagraph-up-spacing {
   margin-top: 1.6rem;
@@ -74,3 +75,19 @@ section {
 .disvantage {
   color: red;
 }
+
+.energy_img {
+  display: flex;
+  justify-content: center;
+  margin-top:4rem;
+  }
+
+.energy_cont {
+  height: 36rem;
+  width: 56rem;
+  padding: 0 2rem;
+ }
+
+.energy_cont:hover {
+  transform: scale(1.01);
+  }
