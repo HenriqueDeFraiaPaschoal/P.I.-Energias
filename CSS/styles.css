@@ -136,12 +136,6 @@ img {
   height: auto;
 }
 
-.form-container h2 {
-  font-size: 2rem;
-  color: var(--dark-green);
-  padding-left: 2rem;
-}
-
 fieldset {
   width: 100%;
   height: auto;
@@ -238,6 +232,7 @@ legend {
 .btn-form {
   align-self: flex-start;
   border: 0.2rem solid #adadad;
+  border-radius: .2rem;
   outline: none;
   padding: 0.8rem 1.2rem;
   font-size: 1.6rem;
@@ -250,7 +245,7 @@ legend {
 .btn-form:hover {
   background-color: #012566;
   border: 0.2rem solid #012566;
-  color: var(--white);
+  color: var(--gray);
 }
 
 @keyframes thumb {
