@@ -257,7 +257,7 @@ legend {
 #caracter {
   font-size: small;
   color: darkgray;
-  margin-top: 5px;
+  margin-top: .5rem;
 }
 
 footer {
@@ -271,7 +271,7 @@ footer {
 
 footer h1{
   text-align: center;
-  margin: 30px;
+  margin: 3rem;
   color: var(--gray);
 }
 .socialBlock {
@@ -280,22 +280,22 @@ footer h1{
   justify-content: space-between;
   flex-wrap: wrap;
   color: var(--gray);
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .socialBlock ul {
-  width: 230px;
-  margin-top: 30px;
+  width: 23rem;
+  margin-top: 3rem;
   color: var(--gray);
 }
 
 .socialBlock ul li {
-  margin-top: 15px;
+  margin-top: 1.5rem;
   margin-left: 0px;
   color: var(--gray);
 }
 
 .socialBlock ul li a span i {
-  margin-right: 10px;
+  margin-right: 1rem;
   color: var(--gray);
 }
