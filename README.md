@@ -100,7 +100,7 @@ O tema deste projeto em si tem como base a escolha de um ou mais tópicos dos [O
 
   [GitHub](https://github.com/Victormoroo)
   
-  [Linkedin](https://www.linkedin.com/in/victor-hugo-moro-941a2720a)
+  [Linkedin](https://www.linkedin.com/in/victormoroo/)
 
 </details>
 
